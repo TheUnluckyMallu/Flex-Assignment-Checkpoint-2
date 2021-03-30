@@ -1,0 +1,160 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*---------------------Whole-------------------------*/
+header{
+    z-index: 40;
+    position: fixed;
+    width: 100%;
+}    
+body{font-family:"Open Sans";}
+
+.banner{z-index: -30;}
+
+a{text-decoration: none;}
+
+img {max-width: 100%;  
+    height: auto;  }  
+/*----------------------Header-----------------------*/
+.menu-area{    width: 80%;     margin: 0 auto;}
+
+.social-media{text-align: center;
+    padding: 20px 0;
+    }
+.links {margin: 10px;}
+
+.navigation-bar{display: flex;background-color: white; 
+    box-shadow: 0 0 2px 2px;
+    height: 100px;}
+
+.brand-span{display: inline-block;;
+    width: fit-content;
+    padding: 0 2%;
+    }
+
+.brandname{ color: red; 
+        font-weight: bold;
+        font-size:30px;
+        display: inline-block;
+        margin: 50% 0;
+    }
+
+
+.menu{display:inline-block;
+    width: 90%; text-align: right;
+    padding: 4.2% 0;
+    }
+.sub-link{ padding: 0 2%; }
+
+
+/*----------------------SECTION-------------------------*/
+
+.others{width: 76%; margin: auto; text-align: center;}
+
+/*--------------Service-------------------*/
+.services{
+    margin: 20px auto;
+    height: 450px;
+    padding: 20px;
+}
+
+h3{font-size: large;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+    margin: 20px auto;       
+}
+
+p{ margin-bottom: 40px; text-transform: uppercase;}
+
+.service-flex{ display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0 auto;}
+.box{
+    height: 230px; width: 230px;
+}
+.b1{ background-color:lightgreen;}
+.b2{ background-color:lightsalmon;}
+.b3{ background-color:skyblue;}
+.b4{ background-color:rgb(141, 209, 38);}
+.boxline{padding: 50%; margin: auto;
+    padding-bottom: 40%;}
+
+
+/*--------------Portolio-------------------*/
+
+.portfolio {    margin: 20px auto;
+    height: 700px;
+    padding: 20px;
+}
+.port-flex{display: flex; justify-content: center;}
+
+.port-img{width: 240px;height: 240px;
+    margin: 16px;}
+/*----------------------Team-------------------------*/
+
+.team {   
+    margin: 20px auto;
+    height: auto;
+    padding-top: 100px;
+    padding: 20px;}
+
+.memb{border-radius: 100%;}
+
+.team-comments {
+    height: 400px;
+}
+.italian{font-style:italic;color: gray; margin: 10px 0;
+        font-size: 12px;}
+
+.subt{ margin-top: 70px; font-size: 18px;}
+.lowercase{text-transform:unset; margin-bottom: 30px;}
+
+.left-container{
+    display: inline-block ; width: 69%;
+    float: left; text-align: left;}
+.team-para{font-size: 12px; margin: 10px 0;text-transform: unset;}
+.right-container{background-color:rgb(231, 231, 231);
+        display: inline-block ; width: 30%;
+        height: 11rem;}
